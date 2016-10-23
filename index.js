@@ -7,7 +7,7 @@ var fs = require ('fs');
 
 
 
- var moviesLibrary = JSON.parse(fs.readFileSync('movie.json').toString());
+ var moviesLibrary = JSON.parse(fs.readFileSync('movie.json'));
 
 // var moviesLibrary =
 // [
